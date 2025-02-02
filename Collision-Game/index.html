@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css" />
-    <title>Game-Collision</title>
-  </head>
-  <body>
-    <canvas id="Mycanvas" width="800" height="800"></canvas>
-    <script src="./src/main.js" type="module"></script>
-  </body>
-  
-
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Collision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jeu de Collision</h1>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <p class="instructions">Utilisez les flèches du clavier pour vous déplacer.<br>Évitez les obstacles rouges !</p>
+    </div>
+    <script src="src/js/ObjetGraphique.js"></script>
+    <script src="src/js/Player.js"></script>
+    <script src="src/js/Obstacle.js"></script>
+    <script src="src/js/ObstacleAnime.js"></script>
+    <script src="src/js/Exit.js"></script>
+    <script src="src/js/Game.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
 </html>

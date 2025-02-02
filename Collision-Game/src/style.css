@@ -20,7 +20,7 @@ h1 {
 }
 
 canvas {
-    background-color: #16213e;
+    background-color: linear-gradient(135deg, #1a1a2e, #2d2f4e);
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
